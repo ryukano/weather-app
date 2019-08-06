@@ -1,0 +1,94 @@
+.wrapper {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   background: rgb(44,40,105);
+   background: linear-gradient(146deg, rgba(44,40,105,0.9424720571822479) 0%, rgba(127,127,223,0.861239564185049) 38%, rgba(19,211,250,1) 100%);
+}
+
+.main {
+   height: 70%;
+   background: url(./img/clouds.jpg) no-repeat center;
+   background-size: cover;
+   border-radius: 5px;
+   background-color: transparent;
+   box-shadow: 0px 2px 80px -20px rgba(0,0,0,0.5);
+   width: 60%;
+   margin: 0 auto;
+   overflow: auto;
+ }
+
+.info {
+   height: 20vh;
+   padding-top: 4vh;
+   text-align: center;
+   overflow: hidden;
+}
+
+.info h2 {
+   font-size: 2.2em;
+   font-weight: bold;
+   color: #fff;
+   text-shadow: black 0 0 5px;
+ }
+
+ .info p {
+   color: #e4e4e4;
+   font-weight: bold;
+   text-shadow: black 0 0 3px;
+ }
+
+.weather-menu {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   margin: auto;
+   background-color: rgba(255, 255, 255, 0.185);
+   border-radius: 3em;
+}
+
+.form {
+   display: flex;
+   height: 10vh;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+.weather-info {
+   font-size: 1.3em;
+   font-weight: bold;
+   text-shadow: white 0 0 2px;
+   text-align: center;
+}
+
+input[type="text"] {
+   background-color: transparent;
+   border: 0;
+   border-bottom: solid 2px #113a65;
+   width: 50%;
+   margin-right: 20px;
+   font-size: 1.3em;
+   outline: none;
+ }
+
+.button {
+   border-radius: 0.7em;
+   text-shadow: white 0 0 1px;
+   border: 2px blue;
+   background: rgb(44,40,105);
+   background: linear-gradient(216deg, rgba(44,40,105,0.44387261740633754) 0%, rgba(90,90,190,0.438270376509979) 50%, rgba(19,211,250,0.4718838218881303) 100%);
+}
+
+button:hover {
+   border-bottom: 1px solid #3b7fc2;
+   position: relative;
+   top: 1px;
+ }
+
+ button:active {
+   border-bottom: 1px solid transparent;
+   border-color: transparent;
+   position: relative;
+   top: 2px;
+ }
